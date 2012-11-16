@@ -1,0 +1,41 @@
+2012-11-11 15:40:23 identical stylesheets/styles.css 
+2012-11-11 15:56:22 overwrite stylesheets/screen.css 
+2012-11-11 15:56:31 overwrite stylesheets/screen.css 
+2012-11-11 15:56:34 identical stylesheets/screen.css 
+2012-11-11 15:58:53 identical stylesheets/screen.css 
+2012-11-11 15:59:11 identical stylesheets/screen.css 
+2012-11-11 15:59:26 identical stylesheets/screen.css 
+2012-11-11 15:59:40 identical stylesheets/screen.css 
+2012-11-11 15:59:53 overwrite stylesheets/screen.css 
+2012-11-11 15:59:56 identical stylesheets/screen.css 
+2012-11-11 15:59:59 overwrite stylesheets/screen.css 
+2012-11-11 16:00:22 overwrite stylesheets/screen.css 
+2012-11-11 16:01:02     error sass/screen.scss (Line 7 of sass/_base.scss: Invalid CSS after "$basesans ": expected ":", was "= sans-serif;")
+2012-11-11 16:01:02 overwrite stylesheets/screen.css 
+2012-11-11 16:01:20     error sass/screen.scss (Line 7 of sass/_base.scss: Invalid CSS after "$basesans ": expected ":", was "= sans-serif;")
+2012-11-11 16:01:20 identical stylesheets/screen.css 
+2012-11-11 16:01:23     error sass/screen.scss (Line 7 of sass/_base.scss: Invalid CSS after "$basesans ": expected ":", was "= sans-serif;")
+2012-11-11 16:01:23 identical stylesheets/screen.css 
+2012-11-11 16:02:25     error sass/screen.scss (Line 9 of sass/_base.scss: Undefined variable: "$base-sans".)
+2012-11-11 16:02:25 overwrite stylesheets/screen.css 
+2012-11-11 16:03:02 overwrite stylesheets/screen.css 
+2012-11-11 16:03:29 overwrite stylesheets/screen.css 
+2012-11-11 16:03:40 overwrite stylesheets/screen.css 
+2012-11-11 16:03:44 overwrite stylesheets/screen.css 
+2012-11-11 16:04:27 identical stylesheets/screen.css 
+2012-11-11 16:05:22 overwrite stylesheets/screen.css 
+2012-11-11 16:06:13 overwrite stylesheets/screen.css 
+2012-11-11 16:06:30 overwrite stylesheets/screen.css 
+2012-11-11 16:07:30 overwrite stylesheets/screen.css 
+2012-11-11 16:07:41 overwrite stylesheets/screen.css 
+2012-11-11 16:10:11 identical stylesheets/screen.css 
+2012-11-11 16:10:16 overwrite stylesheets/screen.css 
+2012-11-11 16:10:47 overwrite stylesheets/screen.css 
+2012-11-11 16:10:58 overwrite stylesheets/screen.css 
+2012-11-11 16:13:29 overwrite stylesheets/screen.css 
+2012-11-11 16:13:35 identical stylesheets/screen.css 
+2012-11-11 16:13:58 identical stylesheets/screen.css 
+2012-11-11 16:14:32     error sass/screen.scss (Line 20: Mixin span-columns is missing argument $columns.)
+2012-11-11 16:14:32 overwrite stylesheets/screen.css 
+2012-11-11 16:15:32 overwrite stylesheets/screen.css 
+2012-11-11 16:16:47 overwrite stylesheets/screen.css 

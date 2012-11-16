@@ -1,0 +1,27 @@
+// Base Partial
+
+// Import Rules
+	@import "compass/reset";	
+	@import "compass/layout/sticky-footer";
+	@import "bootstrap";
+
+
+// Colors
+	$white: #fff;
+	$miviajeblue: #80D2E9;
+
+// Typography
+
+	$basefont: "nobile",sans-serif;
+
+	// Weights
+	@mixin light { font-weight: 300; }
+	@mixin italic { font-style: italic; }
+	@mixin bold { font-weight: bold; }
+
+	// Special Type Treatment
+	.tagline { @include light; }
+
+
+// Links & Buttons
+	.btn { font-family: 'Helvetica Neue', sans-serif; }
