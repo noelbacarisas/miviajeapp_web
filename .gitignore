@@ -1,0 +1,4 @@
+vendor/
+app/cache/
+app/logs/
+web/.DS_Store
