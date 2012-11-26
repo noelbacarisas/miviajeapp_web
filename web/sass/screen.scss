@@ -16,7 +16,7 @@
 // Layout/Box Model
 
 	// Full Pages
-	$photoBackground: '/images/backgrounds/background-1.jpg';
+	$photoBackground: 'images/backgrounds/background-1.jpg';
 
 	.fullpagebg {  
 		background: url($photoBackground) no-repeat center center fixed;
@@ -29,7 +29,9 @@
 	// Header
 	header {
 		padding: 30px 0;
-		background: $darkgray;
+		background: url(/web/images/backgrounds/background-1.jpg) no-repeat center center fixed;
+		background-size: cover;
+		overflow: hidden;
 
 		#brand {
 			@extend .span4; @extend .centerVertically;
@@ -39,34 +41,57 @@
 	// Body/Contents
 
 	#mainColumn {
-		height: 93%;
+		div:first-child {
+			height: 93%;
+		}
 
 		aside {
-			@extend .span3;
+			.wrapper{
+				padding: 30px 0;
+				position: relative;
+				border-right: 1px solid $lightgray;
+				text-align: right;
 
-			height: 90%;
-			padding: 30px 0;
-			position: relative;
-			border-right: 1px solid $ash;
-			text-align: right;
+				section, nav, footer {
+					padding-right: 30px
+				}
 
-			section, nav, footer {
-				padding-right: 30px
-			}
+				nav {
+					padding-top: 30px;
+					margin-bottom: 350px;
+					a {
+						display: block;
+						padding-top: 5px;
+					}
+				}
 
-			nav {
-				padding-top: 30px;
-				a {
-					display: block;
-					padding-top: 5px;
+				footer {
+					position: absolute;
+					bottom: 10px;
+					right: 0;
+					font-size: 11px;
 				}
 			}
+		}
 
-			footer {
-				position: absolute;
-				bottom: 10px;
-				right: 0;
-				font-size: 11px;
+		.feed {
+			li {
+				padding: 30px 0;
+				border-bottom: 1px dotted $lightgray;
+
+				article {
+					@include border-radius(3px);
+					color: $white;
+					background: $lightgray;
+					padding: 5px;
+				}
+
+				.mapwrapper { border-bottom: 1px dotted #bbb; }
+				.journallink { 
+					color: $ash;
+					font-size: 11px;
+					a { font-size: 11px; }
+				}
 			}
 		}
 	}
