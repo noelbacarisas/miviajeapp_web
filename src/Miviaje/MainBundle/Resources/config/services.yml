@@ -5,3 +5,5 @@ services:
 #    miviaje_main.example:
 #        class: %miviaje_main.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+  miviaje_service.oAuth:
+    class:  Miviaje\MainBundle\Services\OAuthService
