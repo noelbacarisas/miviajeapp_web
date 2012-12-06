@@ -16,7 +16,7 @@
 // Layout/Box Model
 
 	// Full Pages
-	$photoBackground: 'images/backgrounds/background-1.jpg';
+	$photoBackground: '/images/backgrounds/background-1.jpg';
 
 	.fullpagebg {  
 		background: url($photoBackground) no-repeat center center fixed;
@@ -29,7 +29,7 @@
 	// Header
 	header {
 		padding: 30px 0;
-		background: url(/web/images/backgrounds/background-1.jpg) no-repeat center center fixed;
+		background: url(/images/backgrounds/background-1.jpg) no-repeat center center fixed;
 		background-size: cover;
 		overflow: hidden;
 
@@ -92,6 +92,14 @@
 					font-size: 11px;
 					a { font-size: 11px; }
 				}
+
+				.quotewrapper {
+					p { 
+						color: $darkgray; 
+						font-size: 36px;
+						padding: 20px;
+					}
+				}
 			}
 		}
 	}
@@ -101,13 +109,14 @@
 
 	// Splash 
 	#splash {
+		overflow: hidden;
 		padding-top: 15%;
 		color: $white;
 		text-align: center;
 
 		#brand { margin-bottom: 20px; }
 		.tagline { color: $miviajeblue; }
-		.wrapper { @extend .span6; @extend .offset3; }
+		.wrapper { @extend .span6; @extend .offset3; 
 
 		p { margin: 20px 0 40px 0; }
 
@@ -132,3 +141,4 @@
 			}
 		}
 	}
+}
