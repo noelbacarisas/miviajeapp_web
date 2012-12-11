@@ -1,3 +1,22 @@
-miviaje_main_homepage:
-    pattern:  /hello/{name}
+#miviaje_main_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: MiviajeMainBundle:Home:index }
+
+login:
+    pattern:  /
+    defaults: { _controller: MiviajeMainBundle:Login:login }
+    
+authenticate:
+    pattern: /authenticate
+    defaults: { _controller: MiviajeMainBundle:Login:authenticate }
+
+authorize:
+    pattern: /authorize
+    defaults: { _controller: MiviajeMainBundle:Login:authorize }
+
+##############################
+    #HOME CONTROLLER
+##############################
+home:
+    pattern: /home
     defaults: { _controller: MiviajeMainBundle:Home:index }

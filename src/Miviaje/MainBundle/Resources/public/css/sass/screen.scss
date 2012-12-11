@@ -1,0 +1,105 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+// Project Setup
+	
+	@import "base";
+
+	html, body { height: 100%; }
+	body {
+		font: 16px $basefont;
+	}
+
+// Layout/Box Model
+
+	// Full Pages
+	$photoBackground: '/images/backgrounds/background-1.jpg';
+
+	.fullpagebg {  
+		background: url($photoBackground) no-repeat center center fixed;
+		background-size: cover;
+		body { background: none; }
+	}
+
+// Specific Sections
+	
+	// Header
+	header {
+		padding: 30px 0;
+		background: $darkgray;
+
+		#brand {
+			@extend .span4; @extend .centerVertically;
+		}
+	}
+
+	// Body/Contents
+
+	#mainColumn {
+		height: 93%;
+
+		aside {
+			@extend .span3;
+
+			height: 90%;
+			padding: 30px 0;
+			position: relative;
+			border-right: 1px solid $ash;
+			text-align: right;
+
+			section, nav, footer {
+				padding-right: 30px
+			}
+
+			nav {
+				padding-top: 30px;
+				a {
+					display: block;
+					padding-top: 5px;
+				}
+			}
+
+			footer {
+				position: absolute;
+				bottom: 10px;
+				right: 0;
+				font-size: 11px;
+			}
+		}
+	}
+
+	// Footer
+
+
+	// Splash 
+	#splash {
+		padding-top: 15%;
+		color: $white;
+		text-align: center;
+
+		#brand { margin-bottom: 20px; }
+		.tagline { color: $miviajeblue; }
+		.wrapper { @extend .span6; @extend .offset3; }
+
+		p { margin: 20px 0 40px 0; }
+
+		footer {
+			height: 15px; 
+			width: 100%;
+			position: absolute;
+			text-align: center;
+			padding: 20px 0;
+			bottom: 0;
+			border-top: 1px solid rgba(255,255,255,0.18);
+
+			a { 
+				display: inline-block;
+				margin-right: 20px;
+				font-size: .8em;
+				color: $white; 
+			}
+		}
+	}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/miviaje/!svn/ver/61/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/miviaje/!svn/ver/48/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/LICENSE
+END
+tmhOAuth.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/miviaje/!svn/ver/61/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/tmhOAuth.php
+END
+tmhUtilities.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/miviaje/!svn/ver/48/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/tmhUtilities.php
+END
+TwitterConstants.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/miviaje/!svn/ver/48/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/TwitterConstants.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/miviaje/!svn/ver/48/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/README.md
+END
+cacert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/miviaje/!svn/ver/48/trunk/src/MiViaje/MainBundle/Services/TwitterOAuthWrapper/cacert.pem
+END
