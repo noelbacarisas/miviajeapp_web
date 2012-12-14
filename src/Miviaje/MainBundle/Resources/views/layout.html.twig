@@ -25,12 +25,7 @@
         
 
         {% block stylesheets %}
-            {% stylesheets filter='?yui_css'            	
-            	'@MiviajeMainBundle/Resources/public/css/stylesheets/screen.css'
-            %}
-
-                <link rel="stylesheet" href="{{ asset_url }}" />
-            {% endstylesheets %}
+             <link rel="stylesheet" href="{{ asset('bundles/miviajemain/css/stylesheets/screen.css') }}" />
         {% endblock %}
 
 		<script type="text/javascript" src="//use.typekit.net/jhy0cji.js"></script>
