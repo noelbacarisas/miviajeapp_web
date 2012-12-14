@@ -16,7 +16,7 @@
 // Layout/Box Model
 
 	// Full Pages
-	$photoBackground: 'bundles/miviajemain/images/backgrounds/background-1.jpg';
+	$photoBackground: '/bundles/miviajemain/images/backgrounds/background-1.jpg';
 
 	.fullpagebg {  
 		background: url($photoBackground) no-repeat center center fixed;
@@ -75,7 +75,7 @@
 
 
 	// Splash 
-	#splash {
+	#login {
 		padding-top: 15%;
 		color: $white;
 		text-align: center;
@@ -86,6 +86,7 @@
 
 		p { margin: 20px 0 40px 0; }
 
+		header { background: none; }
 		footer {
 			height: 15px; 
 			width: 100%;
