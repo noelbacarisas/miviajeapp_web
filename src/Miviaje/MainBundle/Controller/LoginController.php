@@ -82,7 +82,7 @@ class LoginController extends Controller
             }                  
         }
 
-        return $this->redirect($this->generateUrl('login'));
+        return $this->redirect($this->generateUrl('home'));
     }
 	
 	
