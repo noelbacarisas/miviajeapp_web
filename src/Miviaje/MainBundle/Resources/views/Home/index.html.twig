@@ -1,1 +1,32 @@
-Home
+{% extends 'MiviajeMainBundle::layout.html.twig' %}
+
+{% block html %}
+    <html lang="en-US">
+{% endblock %}
+
+
+{% block content %}
+
+<div id="mainColumn" class="container">
+		<aside>
+			<section>
+				<img src="/images/temporary/profile/profile1.png" alt="">
+			</section>
+
+			<nav>
+				<a href="">Nick Aguilos</a>
+				<a href="">Journals</a>
+				<a href="" class="settings">Account</a>
+			</nav>
+
+			<footer>
+				Got Questions? Drop us an <a href="">email</a> <br>
+				Copyright &copy; 2012. MiViaje
+			</footer>
+		</aside>
+
+		<section class="feed">
+			feeds here
+		</section>
+	</div>
+{% endblock %}
